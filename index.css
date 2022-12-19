@@ -9,13 +9,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background-color: black;
+    background: linear-gradient(45deg, black,rgb(11, 41, 31));
+    background-size: 150% 150%;
+    animation: bground 15s ease infinite;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+@keyframes bground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 .conteiner {
     width: 300px;
