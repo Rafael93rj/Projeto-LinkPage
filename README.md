@@ -3,6 +3,6 @@
 _______________________________________________________________________<br>
 <h5>Tecnologias utilizadas:</h5>
 💻: CSS, HTML e Javascript
-<br>🔗: https://rafael93rj.github.io/Projeto-LinkPage/
+<br>🔗: https://rafael93rj.github.io/linkPage/
 <br>
 <br>
