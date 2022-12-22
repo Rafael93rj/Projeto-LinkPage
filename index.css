@@ -11,7 +11,7 @@
 body {
     background: linear-gradient(45deg, black,rgb(11, 41, 31));
     background-size: 150% 150%;
-    animation: bground 15s ease infinite;
+    animation: bground 7s ease infinite;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -44,24 +44,34 @@ img.foto {
     border:rgb(42, 165, 128) solid 4px;
     padding: 4px;
 }
-h1 {
+.title {
     margin-top: 15px;
-    margin-bottom: 35px;
     color: antiquewhite;
+}
+.title p:nth-child(2){
+    margin-top: 5px;
+}
+.title p:nth-child(3){
+    font-size: small;
+    margin-bottom: 20px;
 }
 ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 53px;
-    background-color: rgb(42, 165, 128);
-    margin-top: 5px;
+    width: 290px;
+    background-color: rgb(42, 165, 128, 0.3);
+    border: 1px solid rgb(42, 165, 128, 0.4);
+    margin: 5px auto 0 auto;
     border-radius: 5px;
     color: antiquewhite;
     transition: background 400ms;
 }
 ul li a:hover{
-    background:rgb(67, 245, 191);
+    background:rgb(53, 192, 150);
+    height: 60px;
+    width: 295px; 
 }
 footer {
     color: antiquewhite;
@@ -73,7 +83,4 @@ footer {
     margin-top: auto;
     margin-bottom: 15px;
 }
-img:hover {
-    width: 130px;
-    height: 130px;
-}
+
