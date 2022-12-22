@@ -1,24 +1,27 @@
 * {
-    margin: 0; /* tira todas os espaços entre as divs*/
-    padding: 0; /* remove as bordas laterais*/
+    margin: 0; 
+    padding: 0; 
     border: none;
     outline: none;
-    box-sizing: border-box; /* limita o conteúdo ao tamanho interno da caixa*/
-    text-decoration: none; /* remove personalização do texto, ex: sublinhado*/
+    box-sizing: border-box; 
+    text-decoration: none; 
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     background: linear-gradient(45deg, black,rgb(11, 41, 31));
     background-size: 150% 150%;
     animation: bground 7s ease infinite;
     height: 100vh;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 @keyframes bground {
     0% {
         background-position: 0% 50%;
@@ -30,13 +33,15 @@ body {
         background-position: 0 50%;
     }
 }
-.conteiner {
+/*.conteiner {
     width: 300px;
     margin: 100px auto;
-}
+}*/
+
 img {
     width: 100%;
 }
+
 img.foto {
     border-radius: 50%;
     width: 100px;
@@ -44,23 +49,28 @@ img.foto {
     border:rgb(42, 165, 128) solid 4px;
     padding: 4px;
 }
+
 .title {
     margin-top: 15px;
     color: antiquewhite;
 }
+
 .title p:nth-child(2){
     margin-top: 5px;
 }
+
 .title p:nth-child(3){
     font-size: small;
     margin-bottom: 20px;
 }
+
 ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 53px;
     width: 290px;
+    font-size: medium;
     background-color: rgb(42, 165, 128, 0.3);
     border: 1px solid rgb(42, 165, 128, 0.4);
     margin: 5px auto 0 auto;
@@ -68,11 +78,35 @@ ul li a {
     color: antiquewhite;
     transition: background 400ms;
 }
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    width: 290px;
+    font-size: medium;
+    background-color: rgba(42, 165, 128, 0.3);
+    border: 1px solid rgb(42, 165, 128, 0.4);
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+    color: antiquewhite;
+    transition: background 400ms;
+}
+
+button:hover {
+    background:rgb(53, 192, 150);
+    height: 60px;
+    width: 295px; 
+    cursor: pointer;
+}
+
 ul li a:hover{
     background:rgb(53, 192, 150);
     height: 60px;
     width: 295px; 
 }
+
 footer {
     color: antiquewhite;
     opacity: 0.3;
@@ -80,7 +114,25 @@ footer {
 
     display: flex;
     justify-content: center;
-    margin-top: auto;
-    margin-bottom: 15px;
+    margin-top: auto;  
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    max-width: 700px;
+    /*padding: 5px;*/
+    color: antiquewhite;
+    font-size: small;
+    background-color: rgba(172, 218, 204, 0.2);
+    border-radius: 5px;  
+}
+
+object {
+    height: 1px;
+    width: 300px;
+    background: rgba(42, 165, 128, 0.2);
 }
 
