@@ -14,7 +14,9 @@ body {
     background-size: 150% 150%;
     animation: bground 7s ease infinite;
     height: 100vh;
+    width: 100vw;
     padding: 15px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,11 +35,13 @@ body {
         background-position: 0 50%;
     }
 }
-/*.conteiner {
-    width: 300px;
-    margin: 100px auto;
-}*/
 
+.conteiner {
+    height: 100vh;
+}
+
+
+/*Photo*/
 img {
     width: 100%;
 }
@@ -50,6 +54,8 @@ img.foto {
     padding: 4px;
 }
 
+
+/*Text, button*/
 .title {
     margin-top: 15px;
     color: antiquewhite;
@@ -107,32 +113,36 @@ ul li a:hover{
     width: 295px; 
 }
 
-footer {
-    color: antiquewhite;
-    opacity: 0.3;
-    font-size: 15px;
-
-    display: flex;
-    justify-content: center;
-    margin-top: auto;  
-}
-
-#info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    max-width: 700px;
-    /*padding: 5px;*/
-    color: antiquewhite;
-    font-size: small;
-    background-color: rgba(172, 218, 204, 0.2);
-    border-radius: 5px;  
-}
-
 object {
     height: 1px;
     width: 300px;
     background: rgba(42, 165, 128, 0.2);
 }
 
+
+/*Info js*/
+#info {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    color: antiquewhite;
+    font-size: small;
+    background-color: rgba(172, 218, 204, 0.2);
+    border-radius: 5px;  
+}
+
+
+/*Footer*/
+footer {
+    color: antiquewhite;
+    opacity: 0.3;
+    font-size: 15px;
+    margin-top: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
