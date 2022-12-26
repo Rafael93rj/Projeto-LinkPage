@@ -65,6 +65,7 @@ img.foto {
 a{
     color: antiquewhite;   
 }
+
 button {
     display: flex;
     align-items: center;
@@ -79,6 +80,7 @@ button {
     color: antiquewhite;
     transition: background 400ms;
 }
+
 button:hover{
     background:rgb(53, 192, 150);
     height: 60px;
