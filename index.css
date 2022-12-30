@@ -54,11 +54,13 @@ img.foto {
 
 .title p:nth-child(2){
     margin-top: 5px;
+    min-width: 270px;
 }
 
 .title p:nth-child(3){
     font-size: small;
     margin-bottom: 20px;
+    min-width: 270px;
 }
 
 a{
