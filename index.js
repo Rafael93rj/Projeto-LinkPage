@@ -9,9 +9,8 @@ function saibaMais() {
         divInfo.style.display = "block";
     } 
     
-    divInfo.style.opacity = 1;
     setTimeout (function () {
-        divInfo.style.opacity = 0
+        divInfo.style.display = "none"
         buttonSaibaMais.removeAttribute("disable")
         }, 25000)
     }
