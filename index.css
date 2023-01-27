@@ -57,7 +57,7 @@ button {
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 5px auto 0 auto;
     border-radius: 5px;
-    transition: background 400ms;
+    transition: 400ms;
     
 }
 
@@ -85,7 +85,8 @@ object {
     max-width: 500px;
     font-size: medium;
     background-color: rgba(150, 146, 131, 0.3);
-    border-radius: 5px;  
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(141, 132, 95, 0.4);
 }
 
 
